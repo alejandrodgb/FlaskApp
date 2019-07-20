@@ -7,9 +7,6 @@ $(function() {
             type: 'POST',
             success: function(response) {
                 console.log(response);
-                if (response === '200') {
-                    location.href = "https://google.com"
-                }
             },
             error: function(error) {
                 console.log(error);
